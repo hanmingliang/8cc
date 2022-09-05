@@ -81,6 +81,7 @@ static Macro *make_special_macro(SpecialMacroHandler *fn) {
 }
 /*
 * cpp comment
+* check again
 */
 static Token *make_macro_token(int position, bool is_vararg) {
     Token *r = malloc(sizeof(Token));
