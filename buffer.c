@@ -16,6 +16,7 @@ Buffer *make_buffer() {
     return r;
 }
 
+//comment001
 static void realloc_body(Buffer *b) {
     int newsize = b->nalloc * 2;
     char *body = malloc(newsize);
