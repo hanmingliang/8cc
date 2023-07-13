@@ -1,3 +1,21 @@
+...plantuml
+@startuml
+abstract abstract
+abstract class "abstract class"
+annotation annotation
+circle circle
+() circle_short_form
+class class
+diamond diamond
+<> diamond_short_form
+entity entity
+enum enum
+interface interface
+protocol protocol
+struct struct
+@enduml
+...
+
 8cc C Compiler
 ==============
 

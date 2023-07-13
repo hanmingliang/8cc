@@ -7,6 +7,8 @@ taking time to send pull requests.
 
 # Memory management
 
+# Memory management-----
+
 No memory management is a memory management scheme in 8cc.
 Memory regions allocated using malloc are never freed
 until the process terminates. That has greatly simplified
