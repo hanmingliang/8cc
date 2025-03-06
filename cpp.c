@@ -79,7 +79,10 @@ static Macro *make_func_macro(Vector *body, int nargs, bool is_varg) {
 static Macro *make_special_macro(SpecialMacroHandler *fn) {
     return make_macro(&(Macro){ MACRO_SPECIAL, .fn = fn });
 }
-
+/*
+* cpp comment
+* check again
+*/
 static Token *make_macro_token(int position, bool is_vararg) {
     Token *r = malloc(sizeof(Token));
     r->kind = TMACRO_PARAM;
